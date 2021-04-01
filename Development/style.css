@@ -1,0 +1,60 @@
+:root
+{
+    /* Colours */
+    --background_colour: #A52A2A;
+}
+
+
+body
+{
+    background-color: var(--background_colour);
+}
+
+
+#website_title
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    text-align: center;
+    word-spacing: -15px;
+}
+
+
+#language_selection_text
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+    word-spacing: -5px;
+}
+
+
+#languages
+{
+    text-align: center;
+}
+
+
+#language_list
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.language_flag
+{
+    height: 60px;
+}
+
+
+.language_name
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
