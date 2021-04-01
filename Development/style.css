@@ -2,6 +2,8 @@
 {
     /* Colours */
     --background_colour: #A52A2A;
+    --generate_excuse_button_colour: rgba(40, 39, 38, 0.3);
+    --excuse_text_colour: #FFDF00;
 }
 
 
@@ -57,4 +59,45 @@ body
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+}
+
+
+#excuse_generator
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+#generate_excuse_button
+{
+    border: none;
+    border-radius: 15px;
+    background-color: var(--generate_excuse_button_colour);
+    font-size: 40px;
+    padding: 8px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+
+#excuse_textbox
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+#excuse_text
+{
+    text-align: center;
+    margin: 30px;
+    padding: 40px;
+    width: 600px;
+    height: 200px;
+    background-color: var(--generate_excuse_button_colour);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--excuse_text_colour);
+    border-radius: 20px;
 }
