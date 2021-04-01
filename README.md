@@ -1,2 +1,3 @@
-# Excuse_Generator
+# Excuse Generator
+
 This is an excuse generator.
